@@ -1,0 +1,70 @@
+% random partition the sum of 1
+% only generate small number of partitions assuming that
+
+function smallpartition(num,randBound)
+%clear; clc; close all
+count = 0;
+all = 0;
+randsize = 0;
+counter = [];
+odfs = [];
+constraint = [0.0159822999947858,0.00818178632407973,0.00818178632407973,0.00818178632407973,0.00818178632407973,0.00818178632407973,0.00818178632407973,0.00613766636477021,0.00572645585112265,0.00572645585112265,0.00613766636477021,0.00572645585112265,0.00572645585112265,0.00572645585112265,0.00613766636477021,0.00572645585112265,0.00572645585112265,0.00572645585112265,0.00572645585112265,0.00572645585112265,0.00613766636477021,0.00572645585112265,0.00613766636477021,0.00572645585112265,0.00572645585112265,0.00572645585112265,0.00572645585112265,0.00572645585112265,0.00613766636477021,0.00613766636477021,0.00613766636477021,0.00376140480720866,0.00376140480720866,0.00376140480720866,0.00454084416782057,0.00454084416700527,0.00454084416700527,0.00454084416782057,0.00454084416782057,0.00454084416700527,0.00454084416782057,0.00454084416700527,0.00454084416700527,0.00454084416782057,0.00454084416700527,0.00454084416782057,0.00454084416782057,0.00454084416782057,0.00454084416782057,0.00454084416700527,0.00454084416700527,0.00454084416700527,0.00454084416700527,0.00454084416782057,0.00454084416700527,0.00454084416700527,0.00454084416782057,0.00454084416782057,0.00541192129558303,0.00495535011431222,0.00495535011431222,0.00541192129558303,0.00495535011431222,0.00541192129558303,0.00541192129558303,0.00541192129558303,0.00541192129558303,0.00541192129558303,0.00495535011431222,0.00541192129558303,0.00398197813454777,0.00398197813454777,0.00398197813454777,0.00398197813454777,0.00398197813454777,0.00398197813454777];
+
+tic
+% 1 partition - 76 outcomes
+datap{1} = [];
+if num == 1
+for i = 1:76
+    odf_1 = zeros(1,76);
+    odf_1(i) = 1./constraint(i);
+    odf = odf_1(i)
+    val = SeparateOptY(odf_1);
+    all = all + 1
+    if val == -10000
+        count = count + 1;
+    else
+	odfs = [odfs;odf_1];
+    
+    end
+    datap{1} = [datap{1};odf_1,-val];
+randsize = randBound
+end
+
+%percentage = [percentage;((76-count)*100)/76];
+counter = [counter;76-count];
+%counti = [counti;1];
+else
+
+% 2 partition - 76*75 = 5700 outcomes
+% make both the partition point and the outcome random
+randsize = randBound;%*i;
+[array, countSum,allSum,odfs] = randPartition(num,randsize,@SeparateOptY);
+datap{num} = array;
+counter = [counter;randsize-countSum];
+end
+t = toc;
+
+Data_SmallPartition = [];
+
+Data_SmallPartition = [Data_SmallPartition; datap{num}];
+
+
+[s,ind] = sort(Data_SmallPartition(:,77));
+dataSort = Data_SmallPartition(ind,:);
+
+
+dataOri_Y_RkI = Data_SmallPartition;
+dataSort(:,77) = s;
+%dataPolar_Y_RkI = [dataSort(1:1250,:);...
+%    dataSort(end-1250+1:end,:)];
+t_Y_RkI = t;
+
+disp(counter);
+%plot(counti,percentage);
+fileName = strcat('Data/data_Y_Rkl',num2str(num),'_',num2str(randsize),'.mat'); 
+save(fileName,'counter','randsize','odfs','dataOri*','t_*','datap');
+exit;
+%figure,close                    % must do this first, otherwise plot is empty
+%plot(counti,percentage)                      % usual plotting
+%print -dpdf -r600 plot.pdf
+%Exit
