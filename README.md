@@ -1,7 +1,7 @@
 # Galfenol
 
 
-Developer Team
+## Developer Team
 The code was developed by the CUCIS group at the Electrical and Computer Engineering Department at Northwestern University.
 
 ## Citation
