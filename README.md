@@ -1,4 +1,4 @@
-# Galfenol
+# galfenol_microstructure_optimization
 
 
 ## Developer Team
