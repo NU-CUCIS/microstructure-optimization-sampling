@@ -1,6 +1,10 @@
 # microstructure-optimization-sampling
 Microstructure optimization of constrained design objectives using data-driven sampling approaches
 
+<p align="center">
+  <img src="ml_optim.png" width="800">
+</p>
+
 
 ## Requirements 
 
