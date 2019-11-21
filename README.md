@@ -1,4 +1,4 @@
-# galfenol_microstructure_optimization
+# microstructure-optimization-sampling
 
 
 ## Developer Team
