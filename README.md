@@ -18,11 +18,17 @@ Arindam Paul, Pinar Acar, Ruoqian Liu, Wei-keng Liao, Alok Choudhary, Veera Sund
 
 ## Developer Team & Collaborators 
 
-The code was developed by the <a href="http://cucis.ece.northwestern.edu/">CUCIS</a> group at the Electrical and Computer Engineering Department in Northwestern University. The development team would like thank the collaborators <a href="https://www.me.vt.edu/people/faculty/pinar-acar/">Prof. Pinar Acar</a> at Virginia Tech and <a href="https://aero.engin.umich.edu/people/veera-sundararaghavan/">Prof. Veera Sundararaghavan</a>. 
+The code was developed by the <a href="http://cucis.ece.northwestern.edu/">CUCIS</a> group at the Electrical and Computer Engineering Department in Northwestern University. 
+1. Arindam Paul (arindam.paul@eecs.northwestern.edu)
+2. Ankit Agrawal (ankitag@eecs.northwestern.edu)
+3. Wei-keng Liao (wkliao@eecs.northwestern.edu)
+4. Alok Choudhary (choudhar@eecs.northwestern.edu)
+
+The development team would like thank the collaborators <a href="https://www.me.vt.edu/people/faculty/pinar-acar/">Prof. Pinar Acar</a> at Virginia Tech and <a href="https://aero.engin.umich.edu/people/veera-sundararaghavan/">Prof. Veera Sundararaghavan</a>. 
 
 
 ## Questions/Comments:
-email: apaul@u.northwestern.edu
+email: arindam.paul@eecs.northwestern.edu or ankitag@eecs.northwestern.edu
 Copyright (C) 2019, Northwestern University.
 See COPYRIGHT notice in top-level directory.
 
