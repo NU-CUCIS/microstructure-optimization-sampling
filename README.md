@@ -7,7 +7,7 @@ The code was developed by the CUCIS group at the Electrical and Computer Enginee
 ## Citation
 If you use this code or data, please cite:
 
-Arindam Paul, Pinar Acar, Reda Al-Bahrani, Wei-keng Liao, Alok Choudhary, Ankit Agrawal. CheMixNet: Mixed DNN Architectures for Predicting Chemical Properties using Multiple Molecular Representations. Thirty-second Conference on Neural Information Processing Systems (NIPS), 2018, DOI: https://arxiv.org/abs/1811.08283
+Arindam Paul, Pinar Acar, Ruoqian Liu, Wei-keng Liao, Alok Choudhary, Veera Sundararaghavan, Ankit Agrawal. Data Sampling Schemes for Microstructure Design with Vibrational Tuning Constraints. Journal of American Institute of Aeronautics and Astronautics, 2018 
 
 ## Questions/Comments:
 email: apaul@u.northwestern.edu
