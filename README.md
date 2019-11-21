@@ -28,7 +28,7 @@ The development team would like thank the collaborators <a href="https://www.me.
 
 
 ## Questions/Comments:
-email: arindam.paul@eecs.northwestern.edu or ankitag@eecs.northwestern.edu
+email: arindam.paul@eecs.northwestern.edu or ankitag@eecs.northwestern.edu</br>
 Copyright (C) 2019, Northwestern University.
 See COPYRIGHT notice in top-level directory.
 
