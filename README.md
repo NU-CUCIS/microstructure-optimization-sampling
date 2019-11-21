@@ -2,7 +2,7 @@
 Microstructure optimization of constrained design objectives using data-driven sampling approaches
 
 <p align="center">
-  <img src="sampling_optim.png" width="800">
+  <img src="sampling.png" width="800">
 </p>
 
 
