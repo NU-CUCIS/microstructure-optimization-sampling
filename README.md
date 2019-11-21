@@ -14,7 +14,7 @@ Microstructure optimization of constrained design objectives using data-driven s
 ## Citation
 If you use this code or data, please cite:
 
-Arindam Paul, Pinar Acar, Ruoqian Liu, Wei-keng Liao, Alok Choudhary, Veera Sundararaghavan, Ankit Agrawal. Data Sampling Schemes for Microstructure Design with Vibrational Tuning Constraints. Journal of American Institute of Aeronautics and Astronautics, 2018 
+Arindam Paul, Pinar Acar, Ruoqian Liu, Wei-keng Liao, Alok Choudhary, Veera Sundararaghavan, Ankit Agrawal. <a href="https://arc.aiaa.org/doi/abs/10.2514/1.J056170">Data Sampling Schemes for Microstructure Design with Vibrational Tuning Constraints</a>. Journal of American Institute of Aeronautics and Astronautics, 2018 
 
 ## Developer Team & Collaborators 
 
