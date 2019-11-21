@@ -1,13 +1,21 @@
 # microstructure-optimization-sampling
+Microstructure optimization of constrained design objectives using data-driven sampling approaches
 
 
-## Developer Team
-The code was developed by the CUCIS group at the Electrical and Computer Engineering Department at Northwestern University.
+## Requirements 
+
+* MATLAB 9.2.0.556344 (R2017a)
+* 
 
 ## Citation
 If you use this code or data, please cite:
 
 Arindam Paul, Pinar Acar, Ruoqian Liu, Wei-keng Liao, Alok Choudhary, Veera Sundararaghavan, Ankit Agrawal. Data Sampling Schemes for Microstructure Design with Vibrational Tuning Constraints. Journal of American Institute of Aeronautics and Astronautics, 2018 
+
+## Developer Team & Collaborators 
+
+The code was developed by the <a href="http://cucis.ece.northwestern.edu/">CUCIS</a> group at the Electrical and Computer Engineering Department in Northwestern University. The development team would like thank the collaborators <a href="https://www.me.vt.edu/people/faculty/pinar-acar/">Prof. Pinar Acar</a> at Virginia Tech and <a href="https://aero.engin.umich.edu/people/veera-sundararaghavan/">Prof. Veera Sundararaghavan</a>. 
+
 
 ## Questions/Comments:
 email: apaul@u.northwestern.edu
