@@ -4,8 +4,8 @@ Microstructure optimization of constrained design objectives using data-driven s
 
 ## Requirements 
 
-* MATLAB 9.2.0.556344 (R2017a)
-* 
+* MATLAB 9.2.0.556344 (R2017a) or above 
+* Python 2.7.1 or above
 
 ## Citation
 If you use this code or data, please cite:
